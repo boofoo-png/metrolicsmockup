@@ -31,9 +31,6 @@ h4 {
 
 .services__card {
     display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 40px;
 }
 
 /* Runns Part */
@@ -44,16 +41,9 @@ h4 {
 
 .services__card__image {
     width: 100px;
-    height: 100px;
     float: left;
     margin-right: 10px;
-    display: none;
 }
 
-.services__card__heading h5 {
-    margin: 0 0 10px 0;
-}
-.services__card__description {
-    font-size: 14px;
-    margin: 0;
+.services__card__heading {
 }
