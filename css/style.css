@@ -29,25 +29,30 @@ h4 {
     color: #1eafde;
 }
 
+/* Runns Part */
 .services__card {
     display: flex;
     align-items: flex-start;
     gap: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 
-/* Runns Part */
-
-.services__card__container {
-    margin: 100px auto;
-}
-
-.services__card__image {
+.icon {
     width: 100px;
     height: 100px;
     float: left;
-    margin-right: 10px;
-    display: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    gap: 10px;
+}
+.services__card__container__content h5,
+p {
+    margin: 0;
+}
+
+.services__card__container__content h5 {
+    margin-bottom: 10px;
 }
 
 .services__card__heading h5 {
@@ -56,4 +61,30 @@ h4 {
 .services__card__description {
     font-size: 14px;
     margin: 0;
+}
+
+.latestWork__post__container {
+    position: relative;
+    width: 400px;
+}
+
+.photography {
+    width: 100%;
+    display: block;
+}
+
+.blue-box {
+    width: 90%;
+    padding: 16px 20px;
+
+    background-color: #1fb6d9;
+    color: white;
+}
+
+.blue-box .latestWork__post__title .latestWork__post__subtitle {
+    margin: 0;
+}
+
+.blue-box .latestWork__post__title {
+    font-weight: bold;
 }
