@@ -3,9 +3,57 @@
     align-items: center;
     gap: 8px;
 }
+
 .navigation {
     display: none;
 }
+
+.title-header {
+    justify-content: center;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.navigation li {
+    flex: 1;
+    min-height: 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 100;
+    box-sizing: border-box;
+}
+
+.navigation li::after {
+    content: ">";
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.navigation li:nth-child(1) {
+    background: #21c78f;
+} /* green */
+.navigation li:nth-child(2) {
+    background: #f2b500;
+} /* yellow */
+.navigation li:nth-child(3) {
+    background: #e06b6b;
+} /* red */
+.navigation li:nth-child(4) {
+    background: #24b8e6;
+} /* blue */
+.navigation li:nth-child(5) {
+    background: #2e5a86;
+} /* navy */
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -56,4 +104,58 @@ h4 {
 .services__card__description {
     font-size: 14px;
     margin: 0;
+}
+
+.imageContainer {
+    justify-content: center;
+    display: flex;
+}
+
+/*
+text over minions
+*/
+
+.hero-section {
+    position: relative;
+}
+
+/* overlay block */
+.hero-text {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* white label boxes */
+.tag {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 18px 18px 18px 26px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    width: fit-content;
+}
+
+/* colored stripe */
+.tag::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 8px;
+    height: 100%;
+}
+
+.blue::before {
+    background: #1f78b4;
+}
+.red::before {
+    background: #e45c5c;
+}
+.yellow::before {
+    background: #f2b500;
 }
