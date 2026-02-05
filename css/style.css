@@ -190,7 +190,7 @@ h2 {
 
 .latestWork__post__container {
     position: relative;
-    width: 400px;
+    width: 100%;
 }
 
 .redbox {
@@ -203,4 +203,81 @@ h2 {
 
     padding: 12px 14px;
     text-align: center;
+}
+
+.svg2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.bluebox {
+    width: 100%;
+    padding: 16px 20px;
+    box-sizing: border-box;
+
+    background-color: #1fb6d9;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.bluebox .latestWork__post__title .latestWork__post__subtitle {
+    margin: 0;
+}
+
+.bluebox .latestWork__post__title {
+    font-weight: bold;
+}
+
+.latestWork__post {
+    position: relative;
+    width: 100%;
+}
+
+.latestWork__post svg {
+    width: 100%;
+    height: 570px;
+    display: block;
+}
+
+.latestWork__post__title__container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 24px 32px;
+    background: rgba(31, 182, 217, 0.95);
+    color: #fff;
+    z-index: 0;
+}
+
+.redbox2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+
+    padding: 18px 22px;
+
+    background: #e15b5b;
+    color: #fff;
+}
+
+.latestWork__posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.header {
+    color: #494949;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.subheader {
+    margin-top: 0;
 }
