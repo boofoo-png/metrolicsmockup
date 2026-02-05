@@ -64,8 +64,22 @@ p {
 }
 
 .latestWork__post__container {
+    /* display: grid;
+    place-items: center; */
     position: relative;
     width: 400px;
+}
+
+.red-box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    background-color: #e15b5b;
+    color: white;
+
+    padding: 12px 14px;
+    text-align: center;
 }
 
 .photography {
@@ -79,6 +93,7 @@ p {
 
     background-color: #1fb6d9;
     color: white;
+    margin-bottom: 10px;
 }
 
 .blue-box .latestWork__post__title .latestWork__post__subtitle {
@@ -87,4 +102,33 @@ p {
 
 .blue-box .latestWork__post__title {
     font-weight: bold;
+}
+
+.portfolio__post__container {
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+.owner_picture {
+    float: left;
+    margin-top: 30px;
+}
+
+.founder__description {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.founder__text__line {
+    border-top: 3px solid rgb(249, 211, 0);
+    width: 200px;
+    margin-top: 20px;
+}
+
+.page__footer {
+    background-color: rgb(20, 48, 93);
+    padding: 0px;
+    margin: auto;
+    color: white;
 }
