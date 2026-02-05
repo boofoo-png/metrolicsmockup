@@ -307,3 +307,26 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.page__footer {
+    background-color: rgb(20, 48, 93);
+    color: white;
+}
+
+.founder {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.founder__text__container {
+    margin-left: 40px;
+    max-width: 700px;
+}
+
+.founder__description {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 650px;
+}
