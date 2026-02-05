@@ -330,3 +330,14 @@ h2 {
     line-height: 1.6;
     max-width: 650px;
 }
+
+.founder__text__line {
+    width: 200px;
+    height: 4px;
+    background-color: #ffc107;
+    border: none;
+
+    margin-top: 16px;
+    margin-left: 0;
+    margin-right: auto;
+}
