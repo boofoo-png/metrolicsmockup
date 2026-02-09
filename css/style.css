@@ -88,3 +88,48 @@ h4 {
     color: #A3A3A3;
     font-size: .6rem;
 }
+
+.services__card__container {
+    display: flex;
+    justify-content: center;
+}
+
+.services__card__image {
+    display: block;
+    margin: auto;
+}
+
+.services__card__heading {
+    text-align: center;
+    color: #545454;
+}
+
+.services__card__description {
+    text-align: center;
+    color: #939393;
+}
+
+.latestWork__post__container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+}
+
+.portfolio__post__container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+
+.previousClients__container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.previousClients__post {
+    margin: 0 1rem;
+    background-color: #F3F3F3;
+    padding: 1rem;
+}
