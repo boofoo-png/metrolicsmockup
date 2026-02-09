@@ -36,10 +36,6 @@
     background: #2e5a86;
 } /* navy */
 
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
-}
 .introduction {
     text-align: right;
     padding-bottom: 50px;
@@ -132,4 +128,44 @@ h4 {
     margin: 0 1rem;
     background-color: #F3F3F3;
     padding: 1rem;
+}
+
+.previousClients__post {
+    display: flex;
+    height: 96px;
+    width: 134px;
+    align-items: center;
+}
+
+.previousClients__logo_1 {
+    height: 50px;
+    width: 134px;
+    display: flex;
+    align-items: center;
+}
+.previousClients__logo_2 {
+    height: 140px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.previousClients__logo_3 {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.previousClients__logo_4 {
+    height: 45px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.previousClients__logo_5 {
+    height: 35px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    
 }
