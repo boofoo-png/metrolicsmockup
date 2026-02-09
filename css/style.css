@@ -341,3 +341,23 @@ h2 {
     margin-left: 0;
     margin-right: auto;
 }
+
+.footer__information__aboutUs__header {
+    margin: 0 0 10px 0;
+    color: orange;
+}
+
+.footer__information__aboutUs {
+    flex: 0 0 55%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.footer__information__instagram__header {
+    margin: 0 0 10px 0;
+    color: lightcoral;
+}
+
+.footer__information__newMastodon__header {
+    color: lightblue;
+}
