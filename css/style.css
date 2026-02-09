@@ -5,23 +5,19 @@
 }
 .navigation {
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    height: 96px;
+    width: 134px;
+    text-align: center;
 }
 .navigation li {
-    flex: 1;
-    min-height: 20px;
     height: 70px;
+    width: 260px;;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: end;
     padding: 0 40px;
     color: #fff;
     font-size: 13px;
     font-weight: 100;
-    box-sizing: border-box;
 }
 
 .navigation li:nth-child(1) {
@@ -55,8 +51,11 @@ body {
 }
 
 .imageContainer__image {
+    background-color: #EBEBEB;
     display: flex;
-    align-items: flex-end;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
 }
 
 .introduction {
