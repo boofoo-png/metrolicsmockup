@@ -114,6 +114,37 @@ h4 {
     gap: 50px; 
 }
 
+.red-box {
+    background: #D8605F;
+}
+
+.latestWork__date {
+    color: #F3F3F3;
+    text-align: center; 
+    padding: 
+}
+
+.date__span {
+    font-size: 25px;
+    text-align: center;
+}
+
+.blue-box {
+    width: 90%;
+    padding: 16px 20px;
+    background-color: #1fb6d9;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.blue-box .latestWork__post__title .latestWork__post__subtitle {
+    margin: 0;
+}
+
+.blue-box .latestWork__post__title {
+    font-weight: bold;
+}
+
 .portfolio__post__container {
     display: grid;
     justify-content: center;
@@ -141,14 +172,14 @@ h4 {
 }
 
 .previousClients__logo_1 {
-    height: 50px;
+    height: 45px;
     width: 134px;
     display: flex;
     align-items: center;
 }
 .previousClients__logo_2 {
     height: 140px;
-    width: 150px;
+    width: 120px;
     display: flex;
     align-items: center;
 }
